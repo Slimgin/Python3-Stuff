@@ -1,0 +1,11 @@
+Notes for	*
+Python3		*
+*****************
+
+Print now requires () - print(a)
+
+For number iteration - a += 1 is shorthand for a + 1 = a
+
+Make multiple assignments - a, b = 0, 1 - print(a, b) || print (a, b)
+
+Import functions within .PY files - from {file} import {function} - No extension needed on file
