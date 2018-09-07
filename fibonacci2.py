@@ -1,3 +1,7 @@
+'''
+Fibonacci Series output to list
+'''
+
 #! /usr/bin/env Python3
 
 def fib2(n):	# Write Fibonacci series up to n
