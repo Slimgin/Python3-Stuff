@@ -1,3 +1,7 @@
+'''
+Fibonacci series to stdout
+'''
+
 #! /usr/bin/env Python3
 
 def fib(n):	# Write Fibonacci series up to n
