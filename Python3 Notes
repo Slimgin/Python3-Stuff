@@ -38,3 +38,16 @@ import string
 list(string.ascii_lowercase)
 ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
+if 'a' in dict2['key']:                                                                                                                           
+...     print("Success")                                                                                                                              
+...                                                                                                                                                   
+Success                                                                                                                                               
+>>> if 'a' in dict2['key']:                                                                                                                           
+...     dict2['value'] += 1                                                                                                                           
+...                                                                                                                                                   
+>>> dict2                                                                                                                                             
+{'key': 'a', 'value': 2}
+
+ASCII Characters to Decimal
+Lowercase - 97 - 122
+Uppercase - 65 - 90
