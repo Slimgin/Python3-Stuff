@@ -9,3 +9,32 @@ For number iteration - a += 1 is shorthand for a + 1 = a
 Make multiple assignments - a, b = 0, 1 - print(a, b) || print (a, b)
 
 Import functions within .PY files - from {file} import {function} - No extension needed on file
+
+enc_string - bytes
+enc_string[0] - int
+hex(enc_string[0]) - str
+ord('a') - int
+hex(ord('a')) - str
+
+for byte in enc_string:
+...     ord('a') ^ byte
+122
+86
+86
+82
+
+Produces list of decimal(int) numbers.
+
+for byte in enc_string:
+...     list1.append(ord('a') ^ byte)
+
+for item in list1:
+    print(chr(item))
+
+import string
+>>> string.ascii_lowercase
+'abcdefghijklmnopqrstuvwxyz'
+
+list(string.ascii_lowercase)
+['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
