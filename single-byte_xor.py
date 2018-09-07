@@ -1,3 +1,8 @@
+'''
+This file is deprecated - please use test.py for Challenge 3 Set 1 
+on https://cryptopals.com/sets/1/challenges/3
+'''
+
 #! /usr/bin/env Python3
 import binascii
 import string
