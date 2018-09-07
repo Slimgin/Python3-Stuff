@@ -8,7 +8,8 @@ chars = 0
 non_chars = 0
 
 
-encoded_string = bytes.fromhex(input('Please enter the cipher stream: ')) '''
+encoded_string = bytes.fromhex(input('Please enter the cipher stream: ')) 
+'''
 Use 1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736 for user input.
 '''
 #key = 'X'
