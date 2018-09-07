@@ -1,3 +1,7 @@
+'''
+Please use this file instead of single-byte_xor.py
+'''
+
 #! /usr/bin/env Python3
 
 import string
