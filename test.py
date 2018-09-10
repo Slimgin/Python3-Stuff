@@ -48,10 +48,11 @@ for letter in key:
         decoded = {}
         chars = 0
         non_chars = 0
-        
-        
-        
-        
+
+decode_letter = input('What letter do you want to use to decode this stream? ')
+for byte in encoded_string:
+	print(chr(ord(decode_letter) ^ byte), end='')
+
         
         
 """        
