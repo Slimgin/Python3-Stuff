@@ -64,3 +64,4 @@ for i in range(256):
         b2 = [i] * len(b1)
         plaintext = bytes(xor(b1, b2))
         pscore = score(plaintext)
+'''        
