@@ -1,0 +1,12 @@
+AAA
+ABB
+ABC
+CBA
+BBA
+BAB
+aaa
+abb
+abc
+ddd
+eff
+ghi
