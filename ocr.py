@@ -9,4 +9,10 @@ with open('rare.txt') as file_obj:
 			characters[char] = 1
 		else:
 			characters[char] += 1
-print(characters)
+#print(characters)
+
+count = 1
+
+for k, v in characters.items():
+	if v == 1:
+		print(k)
