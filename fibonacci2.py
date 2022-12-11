@@ -11,4 +11,26 @@ def fib2(n):	# Write Fibonacci series up to n
     while a < n:
         result.append(a)    # Appending each new a result to end of list.
         a, b = b, a+b
+    result.pop(0)
     return result
+
+
+'''
+Fibonacci series to a given index number.
+
+Index -     1 2 3 4 5 6 7  8  9  10 11
+Fibonacci - 1 1 2 3 5 8 13 21 34 55 89
+'''
+
+def fibindex(n):
+    index = []
+    a, b = 0, 1
+    count = 0
+    while count <= n:
+        index.append(a)
+        a, b = b, a+b
+        count += 1
+    index.pop(0)
+    return index
+
+#print(fibindex(5))
