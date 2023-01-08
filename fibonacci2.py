@@ -2,7 +2,11 @@
 Fibonacci Series output to list
 '''
 
-#! /usr/bin/env Python3
+
+
+'''
+# Code block does not print the right sequence. Use fibindex(n) instead.
+#!/usr/bin/env python3
 
 def fib2(n):	# Write Fibonacci series up to n
     """Return a list containing the Fibonacci series up to n."""
@@ -14,13 +18,14 @@ def fib2(n):	# Write Fibonacci series up to n
     result.pop(0)
     return result
 
-
 '''
+
+
 Fibonacci series to a given index number.
 
 Index -     1 2 3 4 5 6 7  8  9  10 11
 Fibonacci - 1 1 2 3 5 8 13 21 34 55 89
-'''
+
 
 def fibindex(n):
     index = []
@@ -33,4 +38,5 @@ def fibindex(n):
     index.pop(0)
     return index
 
-#print(fibindex(5))
+print(fibindex(5))
+print(fib2(5))

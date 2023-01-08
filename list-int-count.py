@@ -7,7 +7,7 @@ import operator
 
 #list1 = [1234, 5678, 9012, 3456, 7890, 1234]
 
-list1 = [fibindex(30)]
+list1 = [fibindex(5)]
 
 int_count = {'0':0, '1':0, '2':0, '3':0, '4':0, '5':0, '6':0, '7':0, '8':0, '9':0}
 
@@ -16,10 +16,7 @@ for x in list1:
         if y not in int_count:
             continue
         else:
-            count = 0
-            count = int_count.get(y)
-            count += 1  # type: ignore
-            int_count.update({y:count})
+            int_count[y] += 1
 #print(int_count)
 
 sorted_d = sorted(int_count.items(), key=operator.itemgetter(1), reverse=True)
