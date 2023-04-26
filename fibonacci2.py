@@ -21,10 +21,12 @@ def fib2(n):	# Write Fibonacci series up to n
 '''
 
 
+'''
 Fibonacci series to a given index number.
 
 Index -     1 2 3 4 5 6 7  8  9  10 11
-Fibonacci - 1 1 2 3 5 8 13 21 34 55 89
+Fibonacci - 0 1 1 2 3 5 8  13 21 34 55
+'''
 
 
 def fibindex(n):
@@ -38,5 +40,12 @@ def fibindex(n):
     index.pop(0)
     return index
 
-print(fibindex(5))
-print(fib2(5))
+def fibseq(n):
+    index = [0, 1]
+    count = 3
+    while count <= n:
+        c = index.__getitem__(-2) + index.__getitem__(-1)
+        index.append(c)
+        count += 1
+    return index
+    

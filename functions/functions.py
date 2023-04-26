@@ -10,7 +10,7 @@ def max_of_two(x, y):
 #  #2
 def list_sum(sum):
 	sum = 0
-	for num in num_list:
+	for num in list_sum: # type: ignore
 		sum = num + sum
 	return sum
 #num_list = [8, 2, 3, 0, 7] My code

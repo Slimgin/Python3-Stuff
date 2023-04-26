@@ -2,12 +2,12 @@
 
 #!/usr/bin/env python3
 
-from fibonacci2 import fibindex  # type: ignore
+from fibonacci2 import fibseq  # type: ignore
 import operator
 
 #list1 = [1234, 5678, 9012, 3456, 7890, 1234]
 
-list1 = [fibindex(5)]
+list1 = [fibseq(5)]
 
 int_count = {'0':0, '1':0, '2':0, '3':0, '4':0, '5':0, '6':0, '7':0, '8':0, '9':0}
 
