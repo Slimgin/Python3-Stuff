@@ -25,7 +25,7 @@ def fib2(n):	# Write Fibonacci series up to n
 Fibonacci series to a given index number.
 
 Index -     1 2 3 4 5 6 7  8  9  10 11
-Fibonacci - 0 1 1 2 3 5 8  13 21 34 55
+Fibonacci - 1 1 2 3 5 8 13 21 34 55 89
 '''
 
 
